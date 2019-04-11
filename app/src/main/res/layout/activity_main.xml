@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+
+    android:background="@drawable/bgadd1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="133dp"
+        android:layout_height="119dp"
+        android:layout_below="@+id/edtPrice"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="-314dp"
+        app:srcCompat="@drawable/image" />
+
+    <Button
+        android:id="@+id/btnChoose"
+        android:layout_width="118dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_marginStart="-123dp"
+        android:layout_marginLeft="-123dp"
+        android:layout_marginBottom="-51dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:background="#FFC08F00"
+        android:text="Choose image" />
+
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="249dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:background="#F1B665"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtPrice"
+        android:layout_width="252dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/edtName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginRight="77dp"
+        android:background="#FFF1B665"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="235dp"
+        android:layout_marginRight="235dp"
+        android:background="#FFC08F00"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="303dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginRight="159dp"
+        android:background="#FFC08F00"
+        android:onClick="button"
+        android:text="Logout" />
+
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAdd"
+        android:layout_alignStart="@+id/btnAdd"
+        android:layout_alignLeft="@+id/btnAdd"
+        android:layout_marginStart="151dp"
+        android:layout_marginLeft="151dp"
+        android:layout_marginTop="-47dp"
+        android:background="#C08F00"
+        android:text="Tiens List" />
+</RelativeLayout>

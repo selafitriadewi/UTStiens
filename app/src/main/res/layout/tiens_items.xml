@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#FFCCFFFF"
+    android:layout_marginTop="50dp"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imgTiens"
+        android:layout_width="118dp"
+        android:layout_height="92dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="128dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/imgTiens"
+        android:layout_alignEnd="@+id/imgTiens"
+        android:layout_alignRight="@+id/imgTiens"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginRight="-5dp"
+        android:text="Tiens name"
+        android:textAlignment="center"
+        android:textColor="#0e11d1"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:layout_alignEnd="@+id/txtName"
+        android:layout_alignRight="@+id/txtName"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:text="Price"
+        android:textAlignment="center"
+        android:textColor="#ce1309"
+        android:textSize="17sp" />
+    </RelativeLayout>
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8B42E"
+    tools:context=".Detail">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="176dp"
+        android:layout_height="181dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="500dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:src="@drawable/image" />
+
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginRight="94dp"
+        android:background="#DFE994"
+        android:textColor="#7E0803"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textHarga"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textNama"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        android:background="#DFE994"
+        android:textColor="#7E0803"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
