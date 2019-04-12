@@ -29,7 +29,7 @@ public class LoginActivity extends AppCompatActivity {
         sharedPrefManager = new SharedPrefManager(this);
 
         if (sharedPrefManager.getSPSudahLogin()){
-            startActivity(new Intent(LoginActivity.this, MainActivity.class)
+            startActivity(new Intent(LoginActivity.this, dashboard.class)
                     .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
             finish();
         }
@@ -57,7 +57,7 @@ public class LoginActivity extends AppCompatActivity {
                     edit.putString("sedangLogin",tmpAdmin.getName());
                     edit.apply();
                     sharedPrefManager.saveSPBoolean(SharedPrefManager.SP_SUDAH_LOGIN, true);
-                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, dashboard.class);
                     startActivity(intent);
                     finish();
                 }else{

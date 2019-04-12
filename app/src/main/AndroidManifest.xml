@@ -11,6 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".dashboard"></activity>
+        <activity android:name=".tampil" />
+        <activity android:name=".tampilawal" />
         <activity android:name=".Detail" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity" />
